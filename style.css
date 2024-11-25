@@ -54,7 +54,7 @@ nav .denny:hover{
     text-align: center;
 }
 footer{
- position:  fixed;
+    position:  fixed;
     bottom: 0;       /* Align to the bottom of the viewport */
     left: 0;         /* Align to the left edge */
     width: 100%;     /* Make it span the entire width of the page */
@@ -79,12 +79,13 @@ footer > p:first-of-type {
     color: #f5deb3;
 }
 .letter{
-	width: 100%;
+ width: 100%;
     position: absolute;
-    left: 32%; /* Move to the center horizontally */
-    top: 180px; /* Adjust as needed for vertical positioning */
-    font-family: 'Caveat Brush',Sans;
-    font-size: 60px;
+    left:82%; /* Center horizontally */
+    transform: translateX(-50%); /* Correct centering */
+    top: 199px; /* Default vertical positioning */
+    font-family: 'Caveat Brush', Sans;
+    font-size: 3rem; /* Scalable font size */
 }
 .about{
     font-size: 30px;
@@ -112,5 +113,19 @@ footer > p:first-of-type {
     position: absolute;
     right: 50%; /* Move to the center horizontally */
     top: 393px; /* Adjust as needed for vertical positioning */
+    font-family: 'Caveat Brush',Sans;
+}
+.WE{
+    font-size: 30px;
+    position: absolute;
+    left: 32.1%; /* Move to the center horizontally */
+    top: 440px; /* Adjust as needed for vertical positioning */
+    font-family: 'Caveat Brush',Sans;
+}
+.Contact{
+    font-size: 30px;
+    position: absolute;
+    left: 32.1%; /* Move to the center horizontally */
+    top: 520px; /* Adjust as needed for vertical positioning */
     font-family: 'Caveat Brush',Sans;
 }
