@@ -86,3 +86,31 @@ footer > p:first-of-type {
     font-family: 'Caveat Brush',Sans;
     font-size: 60px;
 }
+.about{
+    font-size: 30px;
+    position: absolute;
+    left: 32%; /* Move to the center horizontally */
+    top: 277px; /* Adjust as needed for vertical positioning */
+    font-family: 'Caveat Brush',Sans;
+}
+.personal{
+    font-size: 30px;
+    position: absolute;
+    right: 45%; /* Move to the center horizontally */
+    top: 315px; /* Adjust as needed for vertical positioning */
+    font-family: 'Caveat Brush',Sans;
+}
+.Vision{
+    font-size: 30px;
+    position: absolute;
+    left: 32.1%; /* Move to the center horizontally */
+    top: 360px; /* Adjust as needed for vertical positioning */
+    font-family: 'Caveat Brush',Sans;
+}
+.Apps{
+    font-size: 30px;
+    position: absolute;
+    right: 50%; /* Move to the center horizontally */
+    top: 393px; /* Adjust as needed for vertical positioning */
+    font-family: 'Caveat Brush',Sans;
+}
