@@ -148,6 +148,9 @@ footer > p:first-of-type {
 .test-container a:hover{
     color:red;  
 }
+.letter:hover{
+    color: tomato;
+}
 
 /*media query starts here*/
 
