@@ -142,10 +142,16 @@ footer > p:first-of-type {
     font-size: 1rem;
     display: none;
 }
+.test-container a{
+    color: black;
+}
+.test-container a:hover{
+    color:red;  
+}
 
 /*media query starts here*/
 
-@media (max-width:991px){
+
    @media (max-width:991px){
     html{
         font-size: 55%;
@@ -268,3 +274,4 @@ footer > p:first-of-type {
     .denny {
         display: none;
     }
+}
