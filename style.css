@@ -83,7 +83,7 @@ footer > p:first-of-type {
     position: absolute;
     left:82%; /* Center horizontally */
     transform: translateX(-50%); /* Correct centering */
-    top: 199px; /* Default vertical positioning */
+    top: 195px; /* Default vertical positioning */
     font-family: 'Caveat Brush', Sans;
     font-size: 3rem; /* Scalable font size */
 }
